@@ -8,12 +8,14 @@ Louise requested to compare similar campaigns to her play after the play raised 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-This analysis uses a pivot table and pivot chart to show the number of successful, failed, and canceled campaigns with a Parent Category of “Theater” based on launch month. This highlights a month to month look at campaign outcome trends to determine what months bring the highest likelihood of success and/or lowest risk to failure. 
-Theater_Outcomes_vs_Launch.png
+This analysis uses a pivot table and pivot chart to show the number of successful, failed, and canceled campaigns with a Parent Category of “Theater” based on launch month. This highlights a month to month look at campaign outcome trends to determine what months bring the highest likelihood of success and/or lowest risk to failure.
+
+![Outcomes vs Launch Date](resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 This analysis uses a series of formulas as well as a line graph to show the percentage by successful, failed, and canceled outcomes for campaigns with similar goal ranges within the subcategory “plays”. This highlights the goal ranges that yield the highest success rates to determine what goals are realistic for success.
-https://github.com/trevoriwen/kickstarter-analysis/blob/749a23b9f1422bf66866b1d161f45648061a996a/resources/Outcomes_vs_Goals.png
+
+![Outcome vs Goals](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 Although with this level of analysis there weren’t any large challenges or difficulties. The first of the smaller challenges came around combining through data, making sure the timestamps were changed to be readable times. Another difficulty was trying to understand what all the provided data fields meant. This was related to staff pick and spotlight meaning, looking at the titles of these fields I would assume that these should have been analyzed for impact on campaign outcome. The last challenge encountered was receiving zeros across all goal ranges for canceled campaigns for play outcomes based on goals. To confirm this was not a mistake the formulas were checked and original data was spot checked through filtering.
